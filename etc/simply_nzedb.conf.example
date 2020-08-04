@@ -1,0 +1,47 @@
+# Settings file for simply-nzedb
+
+#--------------
+# Usenet server
+#--------------
+NNTP_USERNAME=
+NNTP_PASSWORD=
+NNTP_SERVER=
+NNTP_PORT=
+NNTP_SSLENABLED=false
+
+#------------
+# Database - don't change
+#------------
+DB_SYSTEM=mysql
+DB_HOST=database
+DB_PORT=3306
+DB_SOCKET=""
+DB_USER=nzedb
+DB_PASSWORD=nzedb
+DB_NAME=nzedb
+
+#------------
+# IRC Scaper
+#------------
+IRC_USERNAME=
+IRC_SERVER=irc.synirc.net
+IRC_PORT=6667
+IRC_TLS=false
+# Change only if you're using znc
+IRC_PASSWORD=""
+
+#-----------------
+# nZEDb Admin User
+#-----------------
+NZEDB_ADMIN_USERNAME=nzedb
+NZEDB_ADMIN_PASSWORD=nzedb
+NZEDB_ADMIN_EMAIL=nzedb@localhost.com
+
+#----------------
+# Socks Proxy
+#----------------
+# The proxy is only used for post-processing scripts
+# Valid types: socks4 socks4a socks5
+SOCKS_TYPE=
+SOCKS_HOST=
+SOCKS_PORT=
